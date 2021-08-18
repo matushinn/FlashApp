@@ -21,28 +21,6 @@ Flash Chat is an internet based messaging app similar to WhatsApp, the popular m
 * Learn about the App Lifecycle and how to use viewWillAppear or viewWillDisappear.
 * How to create direct Segues for navigation.
 
-# Constants
-```
-struct K {
-    static let cellIdentifier = "ReusableCell"
-    static let cellNibName = "MessageCell"
-    static let registerSegue = "RegisterToChat"
-    static let loginSegue = "LoginToChat"
-    
-    struct BrandColors {
-        static let purple = "BrandPurple"
-        static let lightPurple = "BrandLightPurple"
-        static let blue = "BrandBlue"
-        static let lighBlue = "BrandLightBlue"
-    }
-    
-    struct FStore {
-        static let collectionName = "messages"
-        static let senderField = "sender"
-        static let bodyField = "body"
-        static let dateField = "date"
-    }
-}
+# Movies
+![Animated GIF-downsized_large (6)](https://user-images.githubusercontent.com/44314610/129860570-67640b3a-d2f1-4831-9157-72be3c656798.gif)
 
-
-```
