@@ -34,7 +34,6 @@ class ChatViewController: UIViewController {
     
     func loadMessages(){
         
-        
         db.collection(K.FStore.collectionName)
             .order(by: K.FStore.dateField)
             .addSnapshotListener { querySnapshot, error in
@@ -82,12 +81,10 @@ class ChatViewController: UIViewController {
                     DispatchQueue.main.async {
                         self.messageTextField.text = ""
                     }
-                    
                 }
             }
         }
-        
-        
+
     }
     
     @IBAction func logOutPressed(_ sender: UIBarButtonItem) {

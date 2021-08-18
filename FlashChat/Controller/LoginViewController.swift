@@ -12,11 +12,6 @@ class LoginViewController: UIViewController {
 
     @IBOutlet weak var emailTextField: UITextField!
     @IBOutlet weak var passwordTextField: UITextField!
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
-    }
     
     @IBAction func loginPressed(_ sender: UIButton) {
         if let email = emailTextField.text,let password = passwordTextField.text{
@@ -28,13 +23,7 @@ class LoginViewController: UIViewController {
                     //navigato to the chatViewController
                     self.performSegue(withIdentifier: K.loginSegue, sender: self)
                 }
-              
             }
         }
-        
-        
     }
-    
-    
-
 }

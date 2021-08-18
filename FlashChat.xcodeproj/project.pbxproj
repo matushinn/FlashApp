@@ -145,7 +145,6 @@
 				374FC96F26B951D4001EA329 /* LaunchScreen.storyboard */,
 				374FC97226B951D4001EA329 /* Info.plist */,
 				374FC9A026BA33DB001EA329 /* GoogleService-Info.plist */,
-				374FC9A226BA3D89001EA329 /* Constants.swift */,
 			);
 			path = FlashChat;
 			sourceTree = "<group>";
@@ -192,6 +191,7 @@
 		374FC99726B99144001EA329 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				374FC9A226BA3D89001EA329 /* Constants.swift */,
 				374FC9A426BA4021001EA329 /* Message.swift */,
 			);
 			path = Model;
